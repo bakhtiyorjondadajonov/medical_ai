@@ -1,7 +1,17 @@
 import "./navigation.css";
+import { useState } from "react";
 function Navigation() {
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 50) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
   return (
-    <nav>
+    <nav className={color ? "sticky" : ""}>
       <div className="logo">LOGO</div>
       <ul className="nav_menu">
         <li className="nav_menu__list">
