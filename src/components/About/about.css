@@ -1,0 +1,38 @@
+.container {
+  background-color: #f8f9fa;
+  width: 100vw;
+  height: auto;
+  position: relative;
+}
+.vertical-timeline::before {
+  height: 90%;
+}
+
+.container .vertical-timeline-element-icon {
+  overflow: hidden;
+}
+.vertical-tl-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 800;
+  width: 100%; /* Full width of parent */
+  height: 100%; /* Full height of parent */
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.vertical-timeline-element-date {
+  color: black !important;
+}
+@media (min-width: 1186px) {
+  .vertical-timeline-element-date {
+    padding: 1rem 2rem !important;
+  }
+  .container .vertical-timeline-element-icon {
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+  }
+}

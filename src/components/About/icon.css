@@ -1,0 +1,14 @@
+.icon_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width of parent */
+  height: 100%; /* Full height of parent */
+}
+
+/* Image styling */
+.icon_image {
+  width: 100%; /* Scale image to 60% of the container's width */
+  height: 100%; /* Scale image to 60% of the container's height */
+  object-fit: cover; /* Ensure the image retains its aspect ratio without cropping */
+}
