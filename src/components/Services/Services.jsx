@@ -6,7 +6,7 @@ import Card from "../Card/Card";
 
 export default function Services() {
   return (
-    <SectionContainer background_color="#f8f9fa">
+    <SectionContainer background_color="white">
       <SectionTitle title="title" subtitle="subtitle bla ba bla" />
       <div className="services-container">
         <Card

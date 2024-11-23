@@ -1,0 +1,21 @@
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_container ul {
+  /* line-height: 1rem; */
+  text-decoration: none;
+  list-style: none;
+  /* text-align: center; */
+  font-size: 0.9rem;
+}
+.footer_container li {
+  padding-bottom: 0.5rem;
+}
+@media (max-width: 900px) {
+  .footer_container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

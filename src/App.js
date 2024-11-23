@@ -5,6 +5,9 @@ import SectionContainer from "./components/SectionContainer/SectionContainer.jsx
 import SectionTitle from "./components/SectionTitle/SectionTitle.jsx";
 import Services from "./components/Services/Services.jsx";
 import Features from "./components/Features/Features.jsx";
+import Team from "./components/Team/Team.jsx";
+import Connects from "./components/Connects/Connects.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -12,9 +15,11 @@ function App() {
       <Navigation />
       <Header />
       <About />
-
       <Services />
       <Features />
+      <Team />
+      <Connects />
+      <Footer />
     </>
   );
 }
