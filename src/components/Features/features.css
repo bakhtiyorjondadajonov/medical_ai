@@ -1,0 +1,17 @@
+.features-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .features-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
