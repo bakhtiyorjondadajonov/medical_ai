@@ -12,8 +12,10 @@ function Navigation() {
   window.addEventListener("scroll", changeColor);
   return (
     <nav className={color ? "sticky" : ""}>
-      <div className="logo">LOGO</div>
-      <ul className="nav_menu">
+      {/* <div className="logo">
+        <img src="./logo.png" alt="logo" />
+      </div> */}
+      {/* <ul className="nav_menu">
         <li className="nav_menu__list">
           <a href="#" className="nav_menu__link">
             Home
@@ -39,7 +41,8 @@ function Navigation() {
             Contact
           </a>
         </li>
-      </ul>
+      </ul> */}
+      <div></div>
     </nav>
   );
 }

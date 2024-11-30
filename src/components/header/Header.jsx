@@ -8,7 +8,7 @@ export default function Header() {
       <div class="sub-heading">AI based solutions to medical issues</div>
       <div class="heading">ScanX IMS</div>
       <Button className="btn-header" size="large ">
-        Learn More
+        <a href="#services">Learn More</a>
       </Button>
     </div>
   );

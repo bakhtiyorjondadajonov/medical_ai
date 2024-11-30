@@ -15,7 +15,10 @@ import { Autoplay, Pagination } from "swiper/modules";
 export default function Team() {
   return (
     <SectionContainer>
-      <SectionTitle title="Our Team" subtitle="We have a lot of experience." />
+      <SectionTitle
+        title="Our Team"
+        subtitle="We have a lot of experience. We graduated INHA😉"
+      />
       <div className="team-container">
         <Swiper
           breakpoints={{

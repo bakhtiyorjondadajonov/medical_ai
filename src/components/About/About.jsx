@@ -9,7 +9,7 @@ import Icon from "./Icon";
 import SectionTitle from "../SectionTitle/SectionTitle";
 export default function About() {
   return (
-    <div className="container">
+    <div id="about" className="container">
       <SectionTitle title="About" subtitle="What we've been doing" />
       <div className="">
         <VerticalTimeline>
@@ -17,45 +17,51 @@ export default function About() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date={<div className="date-left">2011 - present</div>}
+            date={<div className="date-left">2024.09</div>}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Icon imageUrl="./1.jpg" />}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Offical Service Lounch
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              It was established with the goal of solving the dermatological
+              problem of the healthcare industry through portable health monitor
+              device based on AI technology.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2010 - 2011"
+            date="2025.01"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Icon imageUrl="./2.jpg" />}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title">
+              Beta service launch{" "}
+            </h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Incheon, Korea
             </h4>
             <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-              Marketing
+              We are revolutionizing Skin Disease Diagnosis with AI Technology.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2008 - 2010"
+            date="2025.4"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             icon={<Icon imageUrl="./3.jpg" />}
           >
-            <h3 className="vertical-timeline-element-title">Web Designer</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Los Angeles, CA
-            </h4>
-            <p>User Experience, Visual Design</p>
+            <h3 className="vertical-timeline-element-title">
+              Official product launch
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">Seoul,Korea</h4>
+            <p>
+              Our product system is designed to be incredibly efficient and
+              user-friendly, making it much easier to detect skin deceases and
+              providing better medical treatment at hospitals.
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             style={{ "margin-bottom": "5rem" }}

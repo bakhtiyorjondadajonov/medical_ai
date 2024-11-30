@@ -14,9 +14,9 @@ function App() {
     <>
       <Navigation />
       <Header />
-      <About />
       <Services />
       <Features />
+      <About />
       <Team />
       <Connects />
       <Footer />

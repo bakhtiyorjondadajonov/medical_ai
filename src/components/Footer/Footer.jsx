@@ -6,13 +6,13 @@ function Footer() {
     <SectionContainer>
       <div className="footer_container">
         <ul>
-          <li>Price One Co., Ltd.</li>
-          <li>702, 13, Teheran-ro 84-gil, Gangnam-gu, Seoul</li>
+          <li>ScanX Co., Ltd.</li>
+          <li>702, 13, Teheran-ro 84-gil, Michuhul-gu, Incheon</li>
           <li>Representative: Bakhtiyorjon (John) Ddajonov</li>
         </ul>
         <ul>
           <li>Copyright © ScanX 2024</li>
-          <li>Business Registration Number 864-86-03026</li>
+          <li>Business Registration Number 864-86-7777</li>
           <li>info@scanx.ai</li>
         </ul>
       </div>
