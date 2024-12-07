@@ -17,7 +17,7 @@ function App() {
       <Services />
       <Features />
       <About />
-      <Team />
+    
       <Connects />
       <Footer />
     </>
